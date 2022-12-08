@@ -12,7 +12,7 @@ namespace Portafolio.Controllers
 {
     public class ExperienciasController : Controller
     {
-        private portafolioEntities1 db = new portafolioEntities1();
+        private portafolioEntities2 db = new portafolioEntities2();
 
         // GET: Experiencias
         public ActionResult Index()
